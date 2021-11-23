@@ -106,4 +106,37 @@
 
 .infopane {
     display: flex;
+    margin-bottom: 100px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.quotecontainer {
+    width: 800px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotetext p {
+    margin: 0;
+}
+
+.quoteattribution p {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.quoteattribution {
+    text-align: end;
+    margin-top: -20px;
 }
